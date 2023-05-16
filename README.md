@@ -1,24 +1,20 @@
 # sspanel_checkin
 
 ## Requirements
-- [Golang](https://golang.org/doc/install) with `$GOPATH` set to your preferred directory
+- [Golang](https://golang.org/doc/install)
 
 ## Build
 1. Get source code
 
 ```
-$ git clone https://github.com/iczc/ss-panel-checkin.git $GOPATH/src/github.com/iczc/ss-panel-checkin
-```
-or
-```
-$ go get github.com/iczc/ss-panel-checkin
+$ git clone https://github.com/CwithW/ss-panel-checkin.git
 ```
 
 2. Compile the project
 
 ```
-cd $GOPATH/src/github.com/iczc/ss-panel-checkin
-go build
+cd ss-panel-checkin
+go build -o ss-panel-checkin main.go
 ```
 
 ## Usage
